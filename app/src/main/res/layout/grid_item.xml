@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    card_view:cardPreventCornerOverlap="false"
+    card_view:cardElevation="2dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardBackgroundColor="#80FF3333"
+    card_view:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/textview_mobile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mobie name"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/textview_mobile_mac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mac address"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMediumInverse"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_gravity="center"
+            android:layout_below="@id/textview_mobile_name"
+            android:layout_marginLeft="16dp"/>
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
